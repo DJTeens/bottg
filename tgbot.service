@@ -6,9 +6,9 @@ After=network.target
 User=makhmud
 Group=makhmud
 
-WorkingDirectory=/home/makhmud/bottg/
-Environment="PYTHONPATH=/home/makhmud/bottg/bottg/"
-ExecStart=/home/makhmud/bottg/bottg/.venv/bin/python /home/makhmud/bottg/bottg/ubuntu18/main.py
+WorkingDirectory=/home/makhmud/bottg2/
+Environment="PYTHONPATH=/home/makhmud/bottg2/"
+ExecStart=/home/makhmud/bottg2/.venv/bin/python /home/makhmud/bottg2/ubuntu18/main.py
 
 [Install]
 WantedBy=multi-user.target
